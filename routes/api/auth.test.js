@@ -20,7 +20,7 @@ test('Login test', async () => {
 });
 */
 
-/* 2-й варіант лекція */
+/* варіант тестів лекція */
 describe('test auth routes', () => {
   let server;
   beforeAll(() => (server = app.listen(PORT))); // запуск сервера перед тестами
