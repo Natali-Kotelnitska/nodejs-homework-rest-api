@@ -1,5 +1,6 @@
-const { createError, sendEmail } = require('../../helpers');
+const { createError } = require('../../helpers');
 const { User, schemas } = require('../../models/user');
+const { sendEmail } = require('../../services');
 
 const resendVerifyEmail = async (req, res) => {
   const { email } = req.body;
