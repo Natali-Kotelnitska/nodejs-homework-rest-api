@@ -19,8 +19,8 @@ const sendEmail = async data => {
 
 module.exports = sendEmail;
 
-/* перевірка чи надсилається msg/email
-const email = {
+//  перевірка чи надсилається msg/email
+/* const email = {
   to: 'natali.shvajka@meta.ua',
   from: 'natalishvajka@gmail.com', // Use the email address or domain you verified above
   subject: 'Sending with Twilio SendGrid is Fun',
@@ -32,4 +32,4 @@ sgMail
   .send(email)
   .then(() => console.log('Email send'))
   .catch(error => console.log(error.message));
-*/
+  */

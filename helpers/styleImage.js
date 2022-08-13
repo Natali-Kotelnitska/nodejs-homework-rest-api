@@ -1,4 +1,5 @@
 const Jimp = require('jimp');
+
 const styleImage = async path => {
   await Jimp.read(path)
     .then(image => {

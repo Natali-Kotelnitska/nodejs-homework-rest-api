@@ -2,8 +2,9 @@ const bcryptjs = require('bcryptjs');
 const gravatar = require('gravatar');
 
 const { User, schemas } = require('../../models/user');
-const { createError, sendEmail } = require('../../helpers');
+const { createError } = require('../../helpers');
 const { nanoid } = require('nanoid');
+const { sendEmail } = require('../../services');
 
 const register = async (req, res) => {
   const { error } = schemas.register.validate(req.body);
